@@ -1,0 +1,61 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = ""
+  subtitle    = ""
+
+  cover       = "img/weights.jpg"
+  description = "Fitness and nutrition blog"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  igName = "toniconntrains"
+  twitterName = "toniconntrains"
+  fbName = "toniconntrains"
+  githubName = ""
+
+  logo = ""
+  orgName = "Toni Conn Trains"
+  orgWebsite = "https://www.toniconntrains.com"
+  orgDescription = "Fitness and nutrion blog"
+
+  author = "Toni Conn"
+  authorAvatar = "img/Headshot.jpg"
+  authorLocation = "Michigan, USA"
+  authorWebsite = "https://toniconntrains.com"
+  authorDescription = "Fitness and nutrition enthusiast"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Fitness"
+  url = "/categories/fitness/"
+  weight = 100
+
+[[menu.main]]
+  name = "Nutition"
+  url = "/categories/nutition/"
+  weight = 99
+
+[[menu.main]]
+  name = "My Gut Healing Journey"
+  url = "/categories/gut-healing-journey"
+  weight = 95
